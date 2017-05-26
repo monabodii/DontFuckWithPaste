@@ -4,6 +4,14 @@ body {
   width: 40em;
 }
 
+button.delete {
+  height: 1.5em;
+  min-height: inherit;
+  min-width: inherit;
+  padding: 0;
+  width: 1.5em;
+}
+
 fieldset {
   border: 0 none;
   padding: 1em;
@@ -24,6 +32,11 @@ p {
   margin: 0;
 }
 
-textarea {
-  width: 100%;
+input {
+  width: 95%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
